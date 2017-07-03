@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+精進群作業第一週job-listing第一遍
 
 Things you may want to cover:
 
