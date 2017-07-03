@@ -1,5 +1,5 @@
 class JobsController < ApplicationController
-before_action :authenticate_user!, only: [:new, :create, :destroy, :update, :edit]
+before_action :authenticate_user!, only: [:new, :create, :destroy, :update, :edit,:wage_upper_bound, :wage_lower_bound, :contact_email]
 def show
 @job = Job.find(params[:id])
 end
