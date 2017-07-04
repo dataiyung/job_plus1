@@ -10,5 +10,9 @@ namespace :admin do
     end
   end
 end
+
+resources :jobs do
+resources :resumes
+end
 root 'jobs#index'
 end
